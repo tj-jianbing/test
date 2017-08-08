@@ -27,10 +27,15 @@ func main() {
 	var v1 conncetion
 	v1 = Phone{"T1", "good"}
 	v2 := Phone{"T1", "good"}
+	v3 := Phone{"T3", "better"}
+
 	v1.Open()
 
 	fmt.Println(v2.name)
 	fmt.Println(v2.Note)
+
+	fmt.Println(v3.name)
+	fmt.Println(v3.Note)
 
 	fmt.Println(v1.Name())
 	fmt.Println("hello world!")
